@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Part 3</title>
+</head>
+
+<body>
+
+    <script>
+
+        //1
+        function add7(num) {
+            let sum = num + 7;
+            return sum;
+        }
+
+        //2
+        function multiply(num1, num2) {
+            let product = num1 * num2;
+            return product;
+        }
+
+        //3
+        function capitalize(str) {
+            let str2 = str.toLowerCase();
+            let first = str.charAt(0).toUpperCase();
+            return first + str2.slice(1);
+        }
+
+        //4
+        function lastLetter(str) {
+            let last = str.slice(-1);
+            return last;
+        }
+
+
+        //console
+        console.log(add7(2));
+        console.log(multiply(3, 4));
+        console.log(capitalize("exciting"));
+        console.log(lastLetter("tree"));
+
+    </script>
+
+</body>
+
+</html>
